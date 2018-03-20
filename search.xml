@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hexo]]></title>
+    <url>%2F2018%2F03%2F20%2FHexo-1%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+      <tags>
+        <tag>PS3</tag>
+        <tag>Games</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo]]></title>
+    <url>%2F2018%2F03%2F19%2FHexo%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>node.js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F03%2F19%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[欢迎来到Hexo！这是你的第一篇文章。检查文档以获取更多信息。如果在使用Hexo时遇到任何问题，您可以在故障排除中找到答案，或者您可以在GitHub上询问我。 Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
