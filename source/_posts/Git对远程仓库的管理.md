@@ -1,5 +1,5 @@
 ---
-title: Git对远程仓库的管理
+title: 远程仓库
 date: 2018-03-21 13:16:49
 categories: Git
 tags:
@@ -11,7 +11,7 @@ tags:
 ```
 git remote -v
 ```
-2、添加github仓库(连接github仓库)
+2、关联github仓库
 
 ```
 git remote add [short-name] git@github.com:malaxg/malaxg.github.io.git
