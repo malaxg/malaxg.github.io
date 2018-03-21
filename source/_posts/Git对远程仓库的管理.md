@@ -1,11 +1,10 @@
 ---
-title: 远程仓库
+title: Git对远程仓库的管理（CRUD）
 date: 2018-03-21 13:16:49
 categories: Git
 tags:
 - "GitHub仓库"
 ---
-# Git对远程仓库的管理（CRUD）
 1、查看当前git仓库所连接的远程github仓库地址
 
 ```
