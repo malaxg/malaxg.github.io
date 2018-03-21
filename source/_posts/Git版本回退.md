@@ -3,7 +3,7 @@ title: Git版本回退(已commit，但未push的情况下)
 date: 2018-03-21 15:30:50
 categories: Git
 tags:
-- "Git版本回退"
+- "Git"
 ---
 1、查看当前分支的版本历史
 
