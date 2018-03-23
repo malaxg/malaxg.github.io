@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="JavaWeb,Servlet," />
 
 
 
@@ -79,17 +79,18 @@
 
 
 
-<meta name="description" content="你带娃儿先跑">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Tagcloud">
-<meta property="og:url" content="http://yoursite.com/tags/tags.html">
+<meta name="description" content="以为servlet是很复杂的东西，事实上，servlet就是一个Java接口，interface! 打开idea，ctrl + shift + n，搜索servlet，就可以看到是一个只有5个方法的interface!   所以，提问中说的网络协议、http什么的，servlet根本不管！也管不着！  那servlet是干嘛的？很简单，接口的作用是什么？==规范==呗！ servlet接口定义的是">
+<meta name="keywords" content="JavaWeb,Servlet">
+<meta property="og:type" content="article">
+<meta property="og:title" content="深入解析Servlet">
+<meta property="og:url" content="http://yoursite.com/2018/03/23/深入解析Servlet/index.html">
 <meta property="og:site_name" content="Malaxg">
-<meta property="og:description" content="你带娃儿先跑">
+<meta property="og:description" content="以为servlet是很复杂的东西，事实上，servlet就是一个Java接口，interface! 打开idea，ctrl + shift + n，搜索servlet，就可以看到是一个只有5个方法的interface!   所以，提问中说的网络协议、http什么的，servlet根本不管！也管不着！  那servlet是干嘛的？很简单，接口的作用是什么？==规范==呗！ servlet接口定义的是">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-20T03:09:16.084Z">
+<meta property="og:updated_time" content="2018-03-23T09:12:54.476Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Tagcloud">
-<meta name="twitter:description" content="你带娃儿先跑">
+<meta name="twitter:title" content="深入解析Servlet">
+<meta name="twitter:description" content="以为servlet是很复杂的东西，事实上，servlet就是一个Java接口，interface! 打开idea，ctrl + shift + n，搜索servlet，就可以看到是一个只有5个方法的interface!   所以，提问中说的网络协议、http什么的，servlet根本不管！也管不着！  那servlet是干嘛的？很简单，接口的作用是什么？==规范==呗！ servlet接口定义的是">
 
 
 
@@ -119,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/tags.html"/>
+  <link rel="canonical" href="http://yoursite.com/2018/03/23/深入解析Servlet/"/>
 
 
 
 
 
-  <title>Tagcloud | Malaxg</title>
+  <title>深入解析Servlet | Malaxg</title>
   
 
 
@@ -254,40 +255,202 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/23/深入解析Servlet/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Malaxg">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/photo.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Malaxg">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">Tagcloud</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-                目前共计 3 个标签
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/Git/" style="font-size: 30px; color: #111">Git</a> <a href="/tags/JavaWeb/" style="font-size: 12px; color: #ccc">JavaWeb</a> <a href="/tags/Servlet/" style="font-size: 12px; color: #ccc">Servlet</a>
-            </div>
-          </div>
+          <h1 class="post-title" itemprop="name headline">深入解析Servlet</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-23T17:11:30+08:00">
+                2018-03-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/JavaWeb/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaWeb</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/03/23/深入解析Servlet/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2018/03/23/深入解析Servlet/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p>以为servlet是很复杂的东西，<strong>事实上，servlet就是一个Java接口</strong>，interface! 打开idea，ctrl + shift + n，搜索servlet，就可以看到是一个只有5个方法的interface!  </p>
+<p>所以，提问中说的网络协议、http什么的，servlet根本不管！也管不着！ </p>
+<p>那servlet是干嘛的？很简单，接口的作用是什么？==规范==呗！</p>
+<p>servlet接口定义的是一套处理网络请求的规范，所有实现servlet的类，都需要实现它那五个方法，其中最主要的是两个生命周期方法 init()和destroy()，还有一个处理请求的service()，也就是说，所有实现servlet接口的类，或者说，所有想要处理网络请求的类，都需要回答这三个问题：</p>
+<ol>
+<li>你初始化时要做什么</li>
+<li>你销毁时要做什么</li>
+<li>你接受到请求时要做什么</li>
+</ol>
+<p>这是Java给的一种规范！就像阿西莫夫的机器人三大定律、行尸走肉里Rick的那三个问题一样，规范！  </p>
+<p>servlet是一个规范，那实现了servlet的类，就能处理请求了吗？</p>
+<p><strong>答案是，不能。</strong></p>
+<p>你可以随便谷歌一个servlet的hello world教程，里面都会让你写一个servlet，相信我，<strong>你从来不会在servlet中写什么监听8080端口的代码，servlet不会直接和客户端打交道！</strong>  </p>
+<p>那请求怎么来到servlet呢？答案是servlet容器，比如我们最常用的tomcat，同样，你可以随便谷歌一个servlet的helloworld教程，里面肯定会让你把servlet部署到一个容器中，不然你的servlet压根不会起作用。  </p>
+<p><strong>tomcat才是与客户端直接打交道的家伙</strong>，他监听了端口，请求过来后，根据url等信息，确定要将请求交给哪个servlet去处理，然后调用那个servlet的service方法，service方法返回一个response对象，tomcat再把这个response返回给客户端。</p>
+<p>作者：Javdroider Hong<br>链接：<a href="https://www.zhihu.com/question/21416727/answer/339012081" target="_blank" rel="noopener">https://www.zhihu.com/question/21416727/answer/339012081</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+
       
     </div>
+    <div>
+  
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+  
+</div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/JavaWeb/" rel="tag"># JavaWeb</a>
+          
+            <a href="/tags/Servlet/" rel="tag"># Servlet</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/03/21/Git分支管理/" rel="next" title="Git分支管理">
+                <i class="fa fa-chevron-left"></i> Git分支管理
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -299,8 +462,8 @@
 
   
     <div class="comments" id="comments">
-      <div class="ds-thread" data-thread-key="tags/tags.html"
-           data-title="Tagcloud" data-url="http://yoursite.com/tags/tags.html">
+      <div class="ds-thread" data-thread-key="2018/03/23/深入解析Servlet/"
+           data-title="深入解析Servlet" data-url="http://yoursite.com/2018/03/23/深入解析Servlet/">
       </div>
     </div>
 
